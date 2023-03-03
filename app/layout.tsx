@@ -1,6 +1,7 @@
 import "@/styles/global.css";
 
 import { Metadata } from "next";
+import { notoSans } from "./fonts";
 
 export const metadata: Metadata = {
   title: "GymLog",
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={notoSans.className}>
       <body>{children}</body>
     </html>
   );
