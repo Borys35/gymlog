@@ -1,0 +1,6 @@
+.background {
+  object-fit: cover;
+  z-index: -99;
+  mix-blend-mode: luminosity;
+  opacity: 0.15;
+}

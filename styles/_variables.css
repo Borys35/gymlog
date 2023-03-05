@@ -1,7 +1,16 @@
 :root {
+  /* Colors */
   --primary: 180, 255, 21;
   --black: 19, 19, 19;
   --dark-grey: 29, 29, 29;
   --white: 252, 252, 252;
   --light-grey: 193, 193, 193;
+
+  /* Spacing */
+  --horizontal-spacing: 2.5rem;
+  --top-spacing: 6rem;
+  --bottom-spacing: 4rem;
+
+  /* Fonts */
+  --base-font-size: 12px;
 }

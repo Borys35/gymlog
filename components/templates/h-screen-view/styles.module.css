@@ -1,0 +1,12 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  padding: var(--top-spacing) var(--horizontal-spacing) var(--bottom-spacing);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
