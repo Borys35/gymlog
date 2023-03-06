@@ -1,3 +1,4 @@
+import { notoSans } from "@/app/fonts";
 import clsx from "clsx";
 import { Url } from "next/dist/shared/lib/router/router";
 import Link from "next/link";
@@ -30,6 +31,7 @@ const Button: FC<ButtonProps> = ({
       styles.button,
       styles[variant],
       styles[size],
+      notoSans.className,
       "btn-text",
       className
     ),

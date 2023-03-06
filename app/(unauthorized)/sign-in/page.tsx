@@ -1,6 +1,6 @@
 import bgImg from "@/assets/images/man-flyes.jpg";
-import Button from "@/components/atoms/button";
 import HScreenView from "@/components/templates/h-screen-view";
+import SignInWithProviderButton from "@/features/auth/sign-in-with-provider-button";
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -8,7 +8,9 @@ const SignInPage = () => {
   return (
     <HScreenView
       heading="Sign In"
-      bottom={<Button size="xl">With Google</Button>}
+      bottom={
+        <SignInWithProviderButton provider="google" name="Google" size="xl" />
+      }
     >
       <Image
         src={bgImg}

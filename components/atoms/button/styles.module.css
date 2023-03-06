@@ -2,6 +2,13 @@
   padding: 1.5em 2em;
   border-radius: 8px;
   cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.15s ease-in-out;
+}
+
+.button:disabled {
+  opacity: 0.4;
 }
 
 .primary {
