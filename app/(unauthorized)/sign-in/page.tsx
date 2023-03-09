@@ -1,6 +1,6 @@
 import bgImg from "@/assets/images/man-flyes.jpg";
 import HScreenView from "@/components/templates/h-screen-view";
-import SignInWithProviderButton from "@/features/auth/sign-in-with-provider-button";
+import SignInWithProviderButton from "@/features/auth/components/sign-in-with-provider-button";
 import Image from "next/image";
 import styles from "./page.module.css";
 

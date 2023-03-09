@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import SignInWithProviderButton from ".";
+import SignInWithProviderButton from "..";
 
 describe("sign-in-with-provider-button tests", () => {
   let button: HTMLElement;
