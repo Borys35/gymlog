@@ -9,7 +9,12 @@ const SignInPage = () => {
     <HScreenView
       heading="Sign In"
       bottom={
-        <SignInWithProviderButton provider="google" name="Google" size="xl" />
+        <SignInWithProviderButton
+          data-test="google-provider-button"
+          provider="google"
+          name="Google"
+          size="xl"
+        />
       }
     >
       <Image

@@ -10,7 +10,7 @@ interface Props extends Omit<ButtonProps, "children"> {
   name: string;
 }
 
-const SignInWithProviderButton: FC<Props> = ({ provider, name }) => {
+const SignInWithProviderButton: FC<Props> = ({ provider, name, ...props }) => {
   const [loading, setLoading] = useState(false);
 
   function handleSignIn() {
@@ -23,8 +23,8 @@ const SignInWithProviderButton: FC<Props> = ({ provider, name }) => {
   }
 
   return (
-    <Button onClick={handleSignIn} disabled={loading}>
-      Sign in with {name}
+    <Button onClick={handleSignIn} disabled={loading} {...props}>
+      Continue with {name}
     </Button>
   );
 };

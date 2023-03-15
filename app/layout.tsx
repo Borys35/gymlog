@@ -2,6 +2,7 @@ import "@/styles/global.css";
 
 import { Metadata } from "next";
 import { notoSans } from "./fonts";
+import Providers from "./Providers";
 
 export const metadata: Metadata = {
   title: "GymLog",
@@ -17,7 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={notoSans.className}>
-      <body>{children}</body>
+      <Providers>
+        <body>{children}</body>
+      </Providers>
     </html>
   );
 }
