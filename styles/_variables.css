@@ -19,4 +19,7 @@
   --body-lg: 1.167rem;
   --body-xl: 1.417rem;
   --body-2xl: 1.75rem;
+
+  /* Media queries */
+  --mq-tablet: 628px;
 }
