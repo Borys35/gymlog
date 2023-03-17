@@ -13,4 +13,10 @@
 
   /* Fonts */
   --base-font-size: 12px;
+  --body-xs: 0.667rem;
+  --body-sm: 0.833rem;
+  --body-md: 1rem;
+  --body-lg: 1.167rem;
+  --body-xl: 1.417rem;
+  --body-2xl: 1.75rem;
 }

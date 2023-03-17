@@ -8,6 +8,16 @@
   flex-direction: column;
 }
 
+.center {
+  align-items: center;
+  text-align: center;
+}
+
+.center > a,
+.center > button {
+  align-self: stretch;
+}
+
 .content {
   flex: 1;
 }

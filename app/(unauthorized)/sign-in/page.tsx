@@ -13,7 +13,7 @@ const SignInPage = () => {
           data-test="google-provider-button"
           provider="google"
           name="Google"
-          size="xl"
+          size="lg"
         />
       }
     >

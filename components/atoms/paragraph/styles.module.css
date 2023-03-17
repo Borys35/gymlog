@@ -15,7 +15,7 @@
 }
 
 .lg {
-  font-size: 1.167remrem;
+  font-size: 1.167rem;
 }
 
 .xl {
@@ -24,4 +24,12 @@
 
 .xxl {
   font-size: 1.75rem;
+}
+
+.white {
+  color: rgb(var(--white));
+}
+
+.grey {
+  color: rgb(var(--light-grey));
 }

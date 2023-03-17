@@ -5,6 +5,8 @@
   border: none;
   outline: none;
   transition: 0.15s ease-in-out;
+  text-align: center;
+  text-decoration: none;
 }
 
 .button:disabled {
@@ -14,4 +16,26 @@
 .primary {
   background-color: rgb(var(--primary));
   color: rgb(var(--black));
+}
+
+.secondary {
+}
+
+.outline {
+}
+
+.sm {
+  font-size: 0.833rem;
+}
+
+.md {
+  font-size: 1rem;
+}
+
+.lg {
+  font-size: 1.25rem;
+}
+
+.xl {
+  font-size: 1.583rem;
 }
