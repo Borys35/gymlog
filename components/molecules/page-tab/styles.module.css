@@ -1,0 +1,28 @@
+.container {
+  border-radius: 8px;
+  display: grid;
+  place-items: flex-end;
+  position: relative;
+  padding: 1.25rem 2rem;
+  overflow: hidden;
+  aspect-ratio: 1.618;
+  text-decoration: none;
+  text-align: right;
+}
+
+.background {
+  object-fit: cover;
+  z-index: -99;
+  mix-blend-mode: luminosity;
+}
+
+.shadow {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    0,
+    rgba(var(--black), 0.8),
+    rgba(var(--black), 0)
+  );
+  z-index: -1;
+}

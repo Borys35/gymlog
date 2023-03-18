@@ -1,24 +1,18 @@
-"use client";
-
+import StartPageTabList from "@/components/organisms/start-page-tab-list";
 import Topbar from "@/components/organisms/topbar";
-import { signOut, useSession } from "next-auth/react";
 
 const StartPage = () => {
-  const session = useSession();
-
   return (
-    <>
-      <Topbar heading="Hi Borys!" />
-      <div>
-        <button
-          onClick={() => {
-            signOut();
-          }}
-        >
-          Sign out
-        </button>
-      </div>
-    </>
+    <div>
+      <Topbar
+        heading={
+          <>
+            Hi, <span className="highlight">Borys</span>!
+          </>
+        }
+      />
+      <StartPageTabList />
+    </div>
   );
 };
 

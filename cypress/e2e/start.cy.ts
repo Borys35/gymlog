@@ -10,6 +10,6 @@ describe("start page", () => {
     cy.visit("/start");
     cy.wait("@session");
 
-    cy.get("button").contains("Sign out");
+    cy.getByData("page-tab").eq(0).get("h2").contains("Start Workout");
   });
 });

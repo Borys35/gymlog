@@ -6,7 +6,7 @@ import { FC } from "react";
 import styles from "./styles.module.css";
 
 interface Props {
-  heading: string;
+  heading: React.ReactNode;
   backTo?: URL;
 }
 
@@ -18,7 +18,7 @@ const Topbar: FC<Props> = ({ heading, backTo }) => {
           <Back />
         </Link>
       )}
-      <Heading level={2} className={styles.title}>
+      <Heading level={1} className={styles.title}>
         {heading}
       </Heading>
       <Dots />
