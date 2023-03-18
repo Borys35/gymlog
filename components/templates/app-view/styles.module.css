@@ -1,10 +1,7 @@
 .container {
   padding: var(--top-spacing) var(--horizontal-spacing) var(--bottom-spacing);
   position: relative;
-  display: flex;
-  flex-direction: column;
   height: 100%;
-  gap: 1.75rem;
 }
 
 .content {

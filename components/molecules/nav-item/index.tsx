@@ -11,11 +11,9 @@ export interface NavItemProps {
 
 const NavItem: FC<NavItemProps> = ({ name, icon, href }) => {
   return (
-    <Link href={href}>
-      <div className={styles.item}>
-        {icon}
-        <Paragraph size="sm">{name}</Paragraph>
-      </div>
+    <Link href={href} className={styles.item}>
+      {icon}
+      <Paragraph size="sm">{name}</Paragraph>
     </Link>
   );
 };

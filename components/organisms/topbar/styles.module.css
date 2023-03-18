@@ -1,0 +1,14 @@
+.topbar {
+  padding-bottom: 1.75rem;
+  gap: 1.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.topbar > svg {
+  height: 1.5rem;
+}
+
+.title {
+  flex: 1;
+}
